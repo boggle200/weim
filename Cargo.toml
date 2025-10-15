@@ -1,6 +1,6 @@
 [package]
 name = "weim"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 authors = ["boggle200 <myminjea@gmail.com>"]
 description = "Because tauri can't get my location in some cases, I made it that can help you get yourself location from your webbrowser."
