@@ -1,0 +1,15 @@
+[package]
+name = "weim"
+version = "0.1.0"
+edition = "2024"
+authors = ["boggle200 <myminjea@gmail.com>"]
+description = "Because tauri can't get my location in some cases, I made it that can help you get yourself location from your webbrowser."
+license = "MIT"
+repository = "https://github.com/boggle200/weim"
+readme = "README.md"
+
+[dependencies]
+chrono = "0.4.42"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+tiny_http = "0.12.0"
